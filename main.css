@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.tip {
+  position: relative;
+  z-index: 24;
+}
+
+a.top:hover {
+  z-index: 25;
+}
+
+a.tip span {
+  display: none;
+}
+
+a.tip:hover span {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  width: 150px;
+  padding: 3px;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+img {
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 6px;
+  border: 1px solid #000;
+}
