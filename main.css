@@ -3,6 +3,52 @@ a {
   font-weight: bold;
 }
 
+img {
+  /*float: left;*/
+  margin-right: 12px;
+  margin-bottom: 6px;
+  border: 1px solid #000;
+}
+
+.mainimg {
+  float: left;
+}
+{
+#hide_e {
+  display: none;
+}
+
+#elevation {
+  display: none;
+}
+
+#hide_p {
+  display: none;
+}
+
+#photos {
+  display: none;
+}
+
+#show_e {
+  display: block;
+}
+
+#show_p {
+  display: block;
+}
+
+.fakelink {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  color: #e03a3e;
+}
+
+section {
+  margin-bottom: 6px;
+}
+
 a.tip {
   position: relative;
   z-index: 24;
@@ -29,9 +75,3 @@ a.tip:hover span {
   background-color: #000;
 }
 
-img {
-  float: left;
-  margin-right: 12px;
-  margin-bottom: 6px;
-  border: 1px solid #000;
-}
