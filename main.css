@@ -4,7 +4,6 @@ a {
 }
 
 img {
-  /*float: left;*/
   margin-right: 12px;
   margin-bottom: 6px;
   border: 1px solid #000;
@@ -13,7 +12,7 @@ img {
 .mainimg {
   float: left;
 }
-{
+
 #hide_e {
   display: none;
 }
